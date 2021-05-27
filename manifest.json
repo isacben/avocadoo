@@ -1,0 +1,20 @@
+{
+  "name": "avocadoo",
+  "version": "1.0",
+  "description": "avocadoo for odoo adds a link to _odoo/support within the Database Information page. Isaac Benitez (ibe@odoo.com). May 2021.",
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.odoo.com/*"],
+      "js": ["avocadoo.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "avocado16.png",
+    "32": "avocado32.png",
+    "128": "avocado128.png",
+    "512": "avocado512.png"
+  },
+  "manifest_version": 2
+}
