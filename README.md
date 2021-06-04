@@ -8,6 +8,8 @@ The new link will be displayed next to the URL field in the Database Information
 
 `URL   https://example.odoo.com/`   [/_odoo/support](#)
 
+![Preview](screenshot.png)
+
 Now you can click the /_odoo/support link next to the URL and a new browser tab will be opened with the login page to inpersonate that database! You can also right-click the link and open the URL on an incognito window.
 
 ## How to Install
